@@ -30,7 +30,7 @@ This is the service of **Trilnk**, a URL shortening platform built using **Java 
 ```bash
 docker-compose up --build
 
-
+API : http://localhost:8080
 
 ## 📌 API Endpoints
 
@@ -47,10 +47,10 @@ Create a new shortened URL.
 }
 
 **Response
-
-<img width="1037" height="432" alt="Screenshot 2025-11-02 at 11 04 12 AM" src="https://github.com/user-attachments/assets/bf3dd96f-ca2c-48ed-9b76-3988f53e1055" />
-
-
+```json
+{
+  "shortCode": "IJ4x9nj"
+}
 
 ### ✅ **GET `/api/shorten/{shortCode}`**
 
@@ -66,9 +66,11 @@ Get all shortened URLs.
 
 ### ✅ **DELETE `/api/shorten{shortcode}`**
 
+Delete a shortened URL by its short code.
+```json
 **Response
-### 📌 Response Example
-
-![Response](https://github.com/user-attachments/assets/36f96b8c-aad4-4de1-a869-18004df02cdf)
+{
+  "message": "Deleted successfully"
+}
 
 
