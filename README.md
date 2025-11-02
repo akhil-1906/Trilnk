@@ -74,3 +74,7 @@ Delete a shortened URL by its short code.
   "message": "Deleted successfully"
 }
 ```
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE) file for details.
