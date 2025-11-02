@@ -41,13 +41,12 @@ API : http://localhost:8080
 Create a new shortened URL.
 
 **Request Body (JSON):**
-```json
 {
   "url": "https://www.github.com"
 }
 
 **Response
-```json
+
 {
   "shortCode": "IJ4x9nj"
 }
@@ -67,7 +66,7 @@ Get all shortened URLs.
 ### ✅ **DELETE `/api/shorten{shortcode}`**
 
 Delete a shortened URL by its short code.
-```json
+
 **Response
 {
   "message": "Deleted successfully"
