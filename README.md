@@ -31,3 +31,52 @@ This is the service of **Trilnk**, a URL shortening platform built using **Java 
 docker-compose up --build
 
 
+
+## 📌 API Endpoints
+
+---
+
+### ✅ **POST `/api/shorten`**
+
+Create a new shortened URL.
+
+**Request Body (JSON):**
+```json
+{
+  "url": "https://www.github.com"
+}
+
+**Response
+
+<img width="1037" height="432" alt="Screenshot 2025-11-02 at 11 04 12 AM" src="https://github.com/user-attachments/assets/bf3dd96f-ca2c-48ed-9b76-3988f53e1055" />
+
+
+### ✅ **POST `/api/shorten`**
+
+Create a new shortened URL.
+
+**Request Body (JSON):**
+```json
+{
+  "url": "https://www.github.com"
+}
+
+**Response
+
+
+### ✅ **GET `/api/shorten/{shortCode}`**
+
+Redirect to the original URL for a given short code.
+
+
+
+### ✅ **GET `/api/shorten`**
+
+Get all shortened URLs.
+
+
+
+### ✅ **DELETE `/api/shorten`**
+
+**Response
+
