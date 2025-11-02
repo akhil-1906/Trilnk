@@ -67,6 +67,8 @@ Get all shortened URLs.
 ### ✅ **DELETE `/api/shorten{shortcode}`**
 
 **Response
-<img src="https://github.com/user-attachments/assets/36f96b8c-aad4-4de1-a869-18004df02cdf" width="700" />
+### 📌 Response Example
+
+![Response](https://github.com/user-attachments/assets/36f96b8c-aad4-4de1-a869-18004df02cdf)
 
 
